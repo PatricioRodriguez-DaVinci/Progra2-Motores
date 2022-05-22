@@ -25,7 +25,7 @@ public class Movement
 
     public void Jump()
     {
-        _rigidBody.AddForce(Vector3.up* _forceJump, ForceMode.Impulse);
+        _rigidBody.AddForce(Vector3.up * _forceJump, ForceMode.Impulse);
     }
 
     public void Shoot()

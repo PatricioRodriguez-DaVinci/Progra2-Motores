@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _movement = new Movement(transform,rb,speed,forceJump) ;
+        _movement = new Movement(transform, rb, speed, forceJump);
         _control = new Control(_movement);
 
 
