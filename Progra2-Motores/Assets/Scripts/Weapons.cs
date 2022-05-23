@@ -27,7 +27,7 @@ public class Weapons : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
             instantiate.InstantiateObject(bullet, spawnPoint);
         }
